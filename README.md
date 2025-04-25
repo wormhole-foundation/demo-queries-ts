@@ -36,10 +36,18 @@ Ensure you have the following installed on your system:
    ```
 
 
-## Running one of the Scripts
+## Running the Scripts
+
+1. Query ERC-20 Token Name on Sepolia (EVM):
 
    ```bash
-   QUERIES_API_KEY=<YOUR_QUERIES_API_KEY> npx tsx query_usdc_sep.ts
+   API_KEY=<YOUR_QUERIES_API_KEY> npx tsx src/query_usdc_sep.ts
+   ```
+
+2. Query Solana Stake Pool Data:
+
+   ```bash
+   API_KEY=<YOUR_QUERIES_API_KEY> npx tsx src/query_solana_stake_pool.ts
    ```
 
 ## Error Handling
