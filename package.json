@@ -1,13 +1,13 @@
 {
   "devDependencies": {
-    "typescript": "^5.6.2"
+    "typescript": "5.8.3"
   },
   "dependencies": {
-    "@wormhole-foundation/wormhole-query-sdk": "^0.0.13",
-    "axios": "^1.7.7",
+    "@wormhole-foundation/wormhole-query-sdk": "0.0.14",
+    "axios": "1.9.0",
     "bs58": "^6.0.0",
-    "dotenv": "^16.4.5",
-    "tsx": "^4.19.0",
-    "web3": "^4.12.1"
+    "dotenv": "16.5.0",
+    "tsx": "4.19.3",
+    "web3": "4.16.0"
   }
 }
